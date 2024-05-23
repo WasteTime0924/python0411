@@ -1,0 +1,16 @@
+def f(x, n):
+    return x** n
+
+print(f(2,5))
+
+
+def is_add(x):
+    if x % 2 == 1:
+       return True
+    else:
+        return False
+print(is_add(33))
+print(is_add(546))
+
+def is_add(x):
+    return x % 2 == 1
